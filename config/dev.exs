@@ -24,8 +24,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :peepchat, Peepchat.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "kevinansfield",
+  password: "",
   database: "peepchat_dev",
   hostname: "localhost",
   pool_size: 10
