@@ -19,7 +19,7 @@ defmodule Peepchat.RegistrationController do
         |> render(Peepchat.UserView, "show.json", user: user)
       {:error, changeset} ->
         conn
-        |> put_status(:unprocessible_entity)
+        |> put_status(:unprocessable_entity)
         |> render(Peepchat.ChangesetView, "error.json", changeset: changeset)
     end
   end
